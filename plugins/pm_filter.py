@@ -435,8 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚜️ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝗝𝗼𝗶𝗻 𝗚𝗿𝗼𝘂𝗽 💠', url='https://t.me/joinchat/EqhXLhL3T1w4Zjc1'),
-            InlineKeyboardButton('💠 𝗝𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💠', url='https://t.me/joinchat/9Mq2rjj9YDk0YmZh')
+            InlineKeyboardButton('💠 𝗝𝗼𝗶𝗻 𝗚𝗿𝗼𝘂𝗽 💠', url='https://t.me/moviebus2'         
             ],[
             InlineKeyboardButton('♻️ 𝗛𝗲𝗹𝗽 ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ 𝗔𝗯𝗼𝘂𝘁 ♻️', callback_data='about')
@@ -468,8 +467,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♻️ 𝗚𝗥𝗢𝗨𝗣 ♻️', url='https://t.me/joinchat/EqhXLhL3T1w4Zjc1'),
-            InlineKeyboardButton('♥️ 𝗦𝗢𝗨𝗥𝗖𝗘', url='https://t.me/joinchat/ZIjFqkTUdoA4NDM9')
+            InlineKeyboardButton('♻️ 𝗚𝗥𝗢𝗨𝗣 ♻️', url='https://t.me/moviebus2'),
+            InlineKeyboardButton('♥️ 𝗦𝗢𝗨𝗥𝗖𝗘', url='https://github.com/Aadhi000/Ajax')
             ],[
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
